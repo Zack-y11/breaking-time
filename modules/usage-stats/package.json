@@ -1,0 +1,9 @@
+{
+  "name": "usage-stats",
+  "version": "0.7.9",
+  "description": "Android UsageStats native module for Expo",
+  "main": "index.ts",
+  "peerDependencies": {
+    "expo": "*"
+  }
+}
