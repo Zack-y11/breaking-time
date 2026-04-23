@@ -38,6 +38,18 @@ yarn-error.*
 
 app-example
 
-# generated native folders
+# generated native folders (root-level only, not custom modules)
 /ios
 /android
+
+# Custom native modules - exclude build artifacts, keep source
+modules/**/android/build/
+modules/**/ios/build/
+modules/**/ios/derived/
+
+# Supabase CLI
+supabase/.temp/
+
+# AI assistant files
+.claude/
+stitch
